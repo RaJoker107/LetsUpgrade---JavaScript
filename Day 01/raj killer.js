@@ -1,0 +1,16 @@
+document.write("<br/>1 consol.log:-mainly used to (print) the output to the consol.inside log(it can be a String,arry,objet,boolean");
+document.write("<br/>eg.open consol ton see output");
+console.time("time taken");
+console.log("hey i am best");
+document.write("<br/>2consol.warn:- it is used to log warning messanges to the consol. by deafult the warning message will be in the black color");
+document.write("<br/>eg.open consol ton see output");
+console.warn("chutiya!");
+document.write("<br/>.consol.error:- return the error in consol log");
+document.write("<br/>eg.open consol ton see output");
+console.error("errorr");
+document.write("<br/>.consol.table:-this method allow us to generate a table inside a consol the input must be an or else an object");
+document.write("<br/>eg.open consol ton see output");
+console.table({'a':1,'b':2});
+document.write("<br/>.consol.timeEnd:-it returns the time after execuation");
+document.write("<br/>eg.open consol ton see output");
+console.timeEnd("time taken");
